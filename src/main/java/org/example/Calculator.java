@@ -6,7 +6,9 @@ public class Calculator {
     private int Total;
     int num2;
 
-    int o = 0;
+    double o = 0;
+
+
 
 
     UserInput userInput = new UserInput();
@@ -18,7 +20,7 @@ public class Calculator {
         userInput.printMessage("Square root [y/n]");
         String userIn = userInput.getString();
         if (Objects.equals(userIn, "y")){
-            calculate(o);
+            calculate((int) o);
         }else {
             while (isActive) {
                 userInput.printMessage("Enter a number");
@@ -67,7 +69,37 @@ public class Calculator {
         userInput.printMessage("answer is " + o);
     }
 
-    public int getO() {
+    public void calculate(double num1){
+        o = (int) Math.sqrt(num1);
+        userInput.printMessage("answer is " + o);
+    }
+    public void calculate(double num1, double num2, String operator){
+        switch (operator){
+            case "+":
+                o = num1 + num2;
+                break;
+            case "-":
+                o = num1 - num2;
+                break;
+            case "*":
+                o = num1 * num2;
+                break;
+            case "/":
+                o = num1 / num2;
+                break;
+            case "^":
+                o = (int) Math.pow(num1, num2);
+                break;
+            case "s":
+                o = (int) Math.sqrt(num1);
+                break;
+            default:
+                throw new IllegalArgumentException("Error - you did not input a valid operator");
+        }
+        userInput.printMessage("answer is " + o);
+    }
+
+    public double getO() {
         return o;
     }
 }
