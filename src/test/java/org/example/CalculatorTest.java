@@ -85,8 +85,8 @@ class CalculatorTest {
 
     @Test
     void CalculateDivideWithDoubles() {
-        calculator.calculate( 4.2, 1.2 , "/");
-        assertEquals(3.5, calculator.getO());
+        calculator.calculate( 5.4, 2 , "/");
+        assertEquals(2.7, calculator.getO());
     }
 
     @Test
