@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4ba7567-6ab7-45de-9fd5-cf67658f09b9" name="Changes" comment="testing on doubles and minus numbers">
+    <list default="true" id="e4ba7567-6ab7-45de-9fd5-cf67658f09b9" name="Changes" comment="refactor methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662390975497</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor methods">
+      <created>1662453556216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662453556216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +185,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="passing all current tests" />
     <MESSAGE value="testing on doubles and minus numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing on doubles and minus numbers" />
+    <MESSAGE value="refactor methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor methods" />
   </component>
 </project>
